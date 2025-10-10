@@ -25,21 +25,21 @@ const memberData = {
 			],
 			"bio": "Hello! My name is Vivek and I'm from a city called Bangalore, in India. My hobbies are playing the drums and eating way too many Cheetos. I'm super excited to be the HoGS president next year, and I look forward to performing evil experiments in HoGS with everyone!!"
 		},
-		{   "name": "Blaise Husek",
+		{   "name": "Harvest Husek",
 			"eboardRole": "Vice President",
 			"major": "Medical Illustration",
 			"enrollment": "Third Year",
 			"photos": [
 				{
-					"URL": "images/members/blaise_husek.jpg",
+					"URL": "images/members/harvest_husek.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/members/blaise_husek_fun.jpg",
+					"URL": "images/members/harvest_husek_fun.jpg",
 					"size": "fun"
 				}
 			],
-			"bio": "Hello! My name is Blaise and I'm from Pittsburgh, PA. I'm a third year medical illustrator and my hobbies include drawing, video games, and fashion. Becoming the Vice President is exciting for me as I enjoy organizing and planning. I'll be looking forward to meeting everybody, so let's make this a great year!"
+			"bio": "Hello! My name is Harvest and I'm from Pittsburgh, PA. I'm a third year medical illustrator and my hobbies include drawing, video games, and fashion. Becoming the Vice President is exciting for me as I enjoy organizing and planning. I'll be looking forward to meeting everybody, so let's make this a great year!"
 		},
 		{   "name": "Cade Medina",
 			"eboardRole": "Treasurer",
