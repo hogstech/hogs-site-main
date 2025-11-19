@@ -1546,6 +1546,7 @@ ul.exemenu li {
     display: block;
     cursor: pointer;
     position: relative;
+    text-align: center;
 }
 
 /* overlay */
@@ -1613,6 +1614,8 @@ ul.exemenu li {
     /*IMPORTANT*/
     max-width: 225px;
     vertical-align: bottom;
+    display: inline-block;
+    margin: 0 auto;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
