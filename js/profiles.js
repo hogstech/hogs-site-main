@@ -225,6 +225,21 @@ const memberData = {
 				}
 			],
 			"bio": "I'm Matthew, a second year computer science major and the head of Tech Committee for this year. I like reading (mainly sci-fi and fantasy), playing video games, and basically anything tech-related, so feel free to talk to me about any of those."
+		},
+		{   "name": "Conor Gutierrez",
+			"major": "Game Design and Development",
+			"enrollment": "Second Year",
+			"photos": [
+				{
+					"URL": "images/members/conor_gutierrez.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/conor_gutierrez_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hallo!!!!!!! I'm Conor, and I major in Game Design and Development. I also love playing games and entertainment of all kinds. God bless you friend, and have a good one X)"
 		}
 	]
 }
