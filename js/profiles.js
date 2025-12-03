@@ -240,6 +240,21 @@ const memberData = {
 				}
 			],
 			"bio": "Hallo!!!!!!! I'm Conor, and I major in Game Design and Development. I also love playing games and entertainment of all kinds. God bless you friend, and have a good one X)"
+		},
+		{   "name": "Katelyn Fisher",
+			"major": "Biochemistry",
+			"enrollment": "First Year",
+			"photos": [
+				{
+					"URL": "images/members/katelyn_fisher.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/katelyn_fisher_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hello! I'm Katelyn, a first year Biochemistry student from a costal town in Massachusetts. I love last minute plans and grand adventures and as I call it \"gaining dad lore\". I'm probably the person you met at 2am one night on a random path, but don't mind that, I was doing laundry."
 		}
 	]
 }
