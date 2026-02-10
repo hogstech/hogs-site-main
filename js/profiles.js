@@ -41,21 +41,21 @@ const memberData = {
 			],
 			"bio": "Hello! My name is Harvest and I'm from Pittsburgh, PA. I'm a third year medical illustrator and my hobbies include drawing, video games, and fashion. Becoming the Vice President is exciting for me as I enjoy organizing and planning. I'll be looking forward to meeting everybody, so let's make this a great year!"
 		},
-		{   "name": "Cade Medina",
+		{   "name": "Matthew Freunscht",
 			"eboardRole": "Treasurer",
-			"major": "Biomedical Sciences",
+			"major": "Biology",
 			"enrollment": "Second Year",
 			"photos": [
 				{
-					"URL": "images/members/cade_medina.jpg",
+					"URL": "images/members/matthew_freunscht.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/members/cade_medina_fun.jpg",
+					"URL": "images/members/matthew_freunscht_fun.jpg",
 					"size": "fun"
 				}
 			],
-			"bio": "Greetings! I'm Cade, and I'll be the treasurer. I'm a second year biomedical sciences major, and plan on going into microbiology. I'm looking forward to working together with the rest of HoGS Eboard to extend our passion for science at RIT!"
+			"bio": "Hello! I'm Matt, the treasurer for HoGS, and I'm a second year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
 		},
 		{   "name": "Jack Fontaine",
 			"eboardRole": "Secretary",
@@ -119,21 +119,6 @@ const memberData = {
 				}
 			],
 			"bio": "Hi I'm Will, I didn't really have a specific interest in science until I met some people in HoGS and realized they were really cool, so I joined mid year. It's been a great community and I've had a lot of fun doing different activities with everyone."
-		},
-		{   "name": "Matthew Freunscht",
-			"major": "Biology",
-			"enrollment": "Second Year",
-			"photos": [
-				{
-					"URL": "images/members/matthew_freunscht.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/matthew_freunscht_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hello! I'm Matt and I'm a second year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
 		},
 		{   "name": "Liam Nevins",
 			"major": "Chemistry",
@@ -255,6 +240,21 @@ const memberData = {
 				}
 			],
 			"bio": "Hello! I'm Katelyn, a first year Biochemistry student from a costal town in Massachusetts. I love last minute plans and grand adventures and as I call it \"gaining dad lore\". I'm probably the person you met at 2am one night on a random path, but don't mind that, I was doing laundry."
+		},
+		{   "name": "Cade Medina",
+			"major": "Biomedical Sciences",
+			"enrollment": "Second Year",
+			"photos": [
+				{
+					"URL": "images/members/cade_medina.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/cade_medina_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Greetings! I'm Cade, a second year biomedical sciences major, and plan on going into microbiology. I'm looking forward to working with HoGS to extend our passion for science at RIT!"
 		}
 	]
 }
