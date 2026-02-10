@@ -55,7 +55,7 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hello! I'm Matt, the treasurer for HoGS, and I'm a second year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
+			"bio": "Hello! I'm Matt, the HOGS treasurer, and I'm a second year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
 		},
 		{   "name": "Jack Fontaine",
 			"eboardRole": "Secretary",
