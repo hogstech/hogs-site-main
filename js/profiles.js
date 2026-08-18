@@ -9,42 +9,42 @@ const memberData = {
 	// between "major" and "enrollment" and it will automatically be formatted
 	// correctly
 	"members": [
-		{   "name": "Vivek Chalasani",
+		{   "name": "John Zobbi",
 			"eboardRole": "President",
-			"major": "Psychology",
+			"major": "Computational Biology",
+			"enrollment": "Fourth Year",
+			"photos": [
+				{
+					"URL": "images/members/john_zobbi.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/john_zobbi_fun.jpg",
+					"size": "fun"
+				}
+			],
+			"bio": "Hey! I'm John, I'm a 4th years bioinformatics and computational biology major, and no I don't know what that means either. I do know that I spend a lot of time with computers, coding and doing genetics research, typically involving plants. Aside from school and research things, I spend a lot of time birding and browsing Wikipedia for whatever piques my interest that day."
+		},
+		{   "name": "Hannah Graupman",
+			"eboardRole": "Vice President",
+			"major": "Biochemistry",
 			"enrollment": "Second Year",
 			"photos": [
 				{
-					"URL": "images/members/vivek_chalasani.jpg",
+					"URL": "images/members/hannah.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/members/vivek_chalasani_fun.jpg",
+					"URL": "images/members/hannah_fun.jpg",
 					"size": "fun"
 				}
 			],
-			"bio": "Hello! My name is Vivek and I'm from a city called Bangalore, in India. My hobbies are playing the drums and eating way too many Cheetos. I'm super excited to be the HoGS president next year, and I look forward to performing evil experiments in HoGS with everyone!!"
-		},
-		{   "name": "Harvest Husek",
-			"eboardRole": "Vice President",
-			"major": "Medical Illustration",
-			"enrollment": "Third Year",
-			"photos": [
-				{
-					"URL": "images/members/harvest_husek.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/harvest_husek_fun.jpg",
-					"size": "fun"
-				}
-			],
-			"bio": "Hello! My name is Harvest and I'm from Pittsburgh, PA. I'm a third year medical illustrator and my hobbies include drawing, video games, and fashion. Becoming the Vice President is exciting for me as I enjoy organizing and planning. I'll be looking forward to meeting everybody, so let's make this a great year!"
+			"bio": "Hello!! I'm Hannah, and I'm a second year biochemistry major with a minor in history! I've lived in the Rochester area all my life, and know the good spots to do things! I'm a huge Transformers, Outer Wilds, and Project Hail Mary fan (basically if it has aliens I'll enjoy). I look forward to working with all HoGS members -- both current and future -- as your vice president!"
 		},
 		{   "name": "Matthew Freunscht",
 			"eboardRole": "Treasurer",
 			"major": "Biology",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/matthew_freunscht.jpg",
@@ -55,12 +55,12 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hello! I'm Matt, the HOGS treasurer, and I'm a second year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
+			"bio": "Hello! I'm Matt, the HOGS treasurer, and I'm a third year Biology major. I enjoy hosting games and events for HOGS members and I look forward to doing so for the foreseeable future! Come join us as a new member!"
 		},
 		{   "name": "Jack Fontaine",
 			"eboardRole": "Secretary",
 			"major": "Mechanical Engineering",
-			"enrollment": "Third Year",
+			"enrollment": "Fourth Year",
 			"photos": [
 				{
 					"URL": "images/members/jack_fontaine.jpg",
@@ -71,13 +71,13 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "My name is Jack Fontaine, and I am a third year mechanical engineering student from northern Virginia. I like nature, games, and playing hockey. I look forward to getting to know new members- do not hesitate to reach out if you want to talk or have questions!"
+			"bio": "My name is Jack Fontaine, and I am a fourth year mechanical engineering student from northern Virginia. I like nature, games, and playing hockey. I look forward to getting to know new members- do not hesitate to reach out if you want to talk or have questions!"
 		},
 
 		// Non E-Board member section starts here
 		{   "name": "Lily Fagan",
 			"major": "Computational Neuroscience",
-			"enrollment": "First Year",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/lily_fagan.jpg",
@@ -88,11 +88,41 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "Heyo! I’m Lily Fagan, a 1st year computational neuroscience major from CT. When I’m not at fencing club practice, you can find me skating around campus or playing Dungeons and Dragons."
+			"bio": "Heyo! I’m Lily Fagan, a 2nd year computational neuroscience major from CT. When I’m not at fencing club practice, you can find me skating around campus or playing Dungeons and Dragons."
+		},
+		{   "name": "Vivek Chalasani",
+			"major": "Psychology",
+			"enrollment": "Third Year",
+			"photos": [
+				{
+					"URL": "images/members/vivek_chalasani.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/vivek_chalasani_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hello! My name is Vivek and I'm from a city called Bangalore, in India. My hobbies are playing the drums and eating way too many Cheetos. I'm super excited to be the HoGS president next year, and I look forward to performing evil experiments in HoGS with everyone!!"
+		},
+		{   "name": "Harvest Husek",
+			"major": "Medical Illustration",
+			"enrollment": "Fourth Year",
+			"photos": [
+				{
+					"URL": "images/members/harvest_husek.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/harvest_husek_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hello! My name is Harvest and I'm from Pittsburgh, PA. I'm a third year medical illustrator and my hobbies include drawing, video games, and fashion. Becoming the Vice President is exciting for me as I enjoy organizing and planning. I'll be looking forward to meeting everybody, so let's make this a great year!"
 		},
 		{   "name": "Lex Fogg",
 			"major": "Chemistry",
-			"enrollment": "First Year",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/lex_fogg.jpg",
@@ -107,7 +137,7 @@ const memberData = {
 		},
 		{   "name": "Will Sionkiewicz",
 			"major": "Cybersecurity",
-			"enrollment": "First Year",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/will_sionkiewicz.jpg",
@@ -122,7 +152,7 @@ const memberData = {
 		},
 		{   "name": "Liam Nevins",
 			"major": "Chemistry",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/liam_nevins.jpg",
@@ -137,7 +167,7 @@ const memberData = {
 		},
 		{   "name": "Kathryn Roy",
 			"major": "Computer engineering technology",
-			"enrollment": "First Year",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/kathryn_roy.jpg",
@@ -152,14 +182,14 @@ const memberData = {
 		},
 		{   "name": "Kenny Yang",
 			"major": "Computing and Information Tech",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/kenny_yang.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/members/kenny_yang_fun.jpg",
+					"URL": "images/members/kenny_yang.jpg",
 					"size": "full"
 				}
 			],
@@ -168,7 +198,7 @@ const memberData = {
 		{   "name": "Henry B",
 			"major": "Biotechnology",
 			"minor": "Music Technology",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/henry_b.jpg",
@@ -183,7 +213,7 @@ const memberData = {
 		},
 		{   "name": "Eli Nolan",
 			"major": "Biology",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/eli_nolan.jpg",
@@ -194,11 +224,11 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "My name is Eli and I am a second year biology major. I am co-head of Project Committee and People In Suits Subcommittee. We are always looking for new committee members, feel free to check out Project Committee in H.E.L.L. and People In Suits Subcommittee in [REDACTED]."
+			"bio": "My name is Eli and I am a third year biology major. I am co-head of Project Committee and People In Suits Subcommittee. We are always looking for new committee members, feel free to check out Project Committee in H.E.L.L. and People In Suits Subcommittee in [REDACTED]."
 		},
 		{   "name": "Matthew Gookin",
 			"major": "Computer Science",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/matthew_gookin.jpg",
@@ -209,11 +239,11 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "I'm Matthew, a second year computer science major and the head of Tech Committee for this year. I like reading (mainly sci-fi and fantasy), playing video games, and basically anything tech-related, so feel free to talk to me about any of those."
+			"bio": "I'm Matthew, a third year computer science major and the head of Tech Committee for this year. I like reading (mainly sci-fi and fantasy), playing video games, and basically anything tech-related, so feel free to talk to me about any of those."
 		},
 		{   "name": "Conor Gutierrez",
 			"major": "Game Design and Development",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/conor_gutierrez.jpg",
@@ -228,7 +258,7 @@ const memberData = {
 		},
 		{   "name": "Katelyn Fisher",
 			"major": "Biochemistry",
-			"enrollment": "First Year",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/katelyn_fisher.jpg",
@@ -239,11 +269,11 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "Hello! I'm Katelyn, a first year Biochemistry student from a costal town in Massachusetts. I love last minute plans and grand adventures and as I call it \"gaining dad lore\". I'm probably the person you met at 2am one night on a random path, but don't mind that, I was doing laundry."
+			"bio": "Hello! I'm Katelyn, a second year Biochemistry student from a costal town in Massachusetts. I love last minute plans and grand adventures and as I call it \"gaining dad lore\". I'm probably the person you met at 2am one night on a random path, but don't mind that, I was doing laundry."
 		},
 		{   "name": "Cade Medina",
 			"major": "Biomedical Sciences",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
 					"URL": "images/members/cade_medina.jpg",
@@ -254,7 +284,7 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "Greetings! I'm Cade, a second year biomedical sciences major, and plan on going into microbiology. I'm looking forward to working with HoGS to extend our passion for science at RIT!"
+			"bio": "Greetings! I'm Cade, a third year biomedical sciences major, and plan on going into microbiology. I'm looking forward to working with HoGS to extend our passion for science at RIT!"
 		}
 	]
 }

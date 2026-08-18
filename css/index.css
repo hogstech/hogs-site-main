@@ -44,7 +44,7 @@ body {
     background: #470012; /* BACKGROUND COLOR */
     font: 16px/30px "merriweather-regular", serif !important;
     font-weight: normal;
-    color: #a1a1a3;
+    color: #b4B4B6;
 }
 
 /* links
@@ -67,6 +67,8 @@ a:focus {
 
 /* Typography
 --------------------------------------------------------------------- */
+
+
 h1,
 h2,
 h3,
@@ -137,7 +139,7 @@ p img {
 
 p.lead {
     font: 18px/24px "merriweather-light", serif;
-    color: #707273;
+    color: #ADADAE;
 }
 
 em {
@@ -272,6 +274,28 @@ dt {
 
 dd {
     margin: 0 0 0 20px;
+}
+
+/* Weekly Events Image Styling:*/
+#weeklyevent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#weeklyevent div{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+
+#weeklyevent div img{
+    min-width: 350px;
+    min-height: 200px;
+    width: 70%;
+    max-height: 100%; /*This overrides an CSS property limiting height images to 300 px.*/
 }
 
 /* Floated image
@@ -434,7 +458,6 @@ select {
     margin: 0 0 5px 0;
     border: 0;
     outline: none;
-    vertical-align: middle;
     color: #a3a4a6;
     font-family: "raleway-bold", sans-serif;
     font-size: 15px;
@@ -479,7 +502,7 @@ input[type="button"] {
     height: auto;
     text-align: center;
     border: none;
-    -webkit-appearance: none;
+    appearance: none;
     -webkit-font-smoothing: inherit;
     border-radius: 3px;
     -moz-transition: all 0.3s ease-in-out;
@@ -1033,7 +1056,8 @@ ul#nav li.current a:after {
 
 #hero-slider .slides .flex-caption h3 {
     font: 18px/1.9 "merriweather-light", sans-serif;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
     text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
     width: 85%;
     margin-top: 24px;
@@ -1307,9 +1331,7 @@ ul#nav li.current a:after {
     padding-bottom: 30px;
 }
 
-#highlights .eventslist {
 
-}
 
 #highlights img {
     /*border: darkred solid 15px;
@@ -1336,9 +1358,7 @@ ul#nav li.current a:after {
     padding-bottom: 30px;
 }
 
-#galleryyear .eventslist {
 
-}
 
 #galleryyear img {
     /*border: darkred solid 15px;
@@ -1735,7 +1755,7 @@ ul.exemenu li {
 
 .popup-modal .description-box p {
     font: 14px/24px "merriweather-regular", serif;
-    color: #A1A1A1;
+    color: #4D4D4D;
     margin-bottom: 12px;
 }
 
@@ -2404,8 +2424,10 @@ ul.exemenu li {
     #contact .left,
     #contact .right {
         padding: 0;
+        text-align: center; 
+        /* cleanup */
     }
-    text-align: center;
+
 
 }
 
@@ -2535,6 +2557,15 @@ input[type="email"],
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
+
+iframe{
+    height:70vw;
+    width:80vw;
+    max-width: 900px;
+    max-height: 540px;
+    
+    position: relative;
+} /*This was for the video showing up better on Mobile.*/
 
 .s-loader .bounce1 {
     -webkit-animation-delay: -0.32s;
@@ -2718,6 +2749,36 @@ footer .social-links li:first-child {
         margin-left: 10px;
     }
 }
+
+/*Link to Google Form*/
+
+#googleform {
+    position: relative;
+    left: 50%;
+}
+
+#googleform a{
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    height: 54px;
+    width: 200px;
+    margin-left: -100px;
+    background: #e20303;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 3px;
+    font: 12px/54px "raleway-heavy", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 
 /* go to top button
 ------------------------------------------------------------------ */
