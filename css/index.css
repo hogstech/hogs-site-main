@@ -1054,7 +1054,7 @@ ul#nav li.current a:after {
     bottom: 0;
 }
 
-#hero-slider .slides .flex-caption h3 {
+#hero-slider .slides .flex-caption h2 {
     font: 18px/1.9 "merriweather-light", sans-serif;
     color: rgba(255, 255, 255, 0.9);
     font-weight: bold;
@@ -1273,7 +1273,7 @@ ul#nav li.current a:after {
     -o-transition: all 0.4s ease-on-out;
     -webkit-transition: all 0.4s ease-on-out;
     -ms-transition: all 0.4s ease-on-out;
-    transition: all 0.4s ease-on-out;
+    /*transition: all 0.4s ease-on-out; this was causing errors*/ 
 }
 
 #hero #more a:hover {
@@ -1348,6 +1348,14 @@ ul#nav li.current a:after {
     margin-bottom: 6px;
 }
 
+#highlights h2 {
+    font: 18px/24px "raleway-heavy", sans-serif;
+    color: #e20303;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 0;
+    margin-bottom: 6px;
+}
 
 /**
 /* =gallery page years
@@ -1660,7 +1668,7 @@ ul.exemenu li {
     transition: all 0.5s ease-in-out;
 }
 
-.folio-item .portfolio-item-meta h5 {
+.folio-item .portfolio-item-meta h3 {
     font: 14px/21px "raleway-bold", sans-serif;
     letter-spacing: 2px;
     color: white;
@@ -1976,7 +1984,7 @@ ul.exemenu li {
     border-bottom: 1px solid #15191d;
 }
 
-#about h3, #eboard_members h3 {
+#about h2, #eboard_members h3 {
     font: 18px/24px "raleway-heavy", sans-serif;
     color: #e20303;
     text-transform: none;
@@ -2368,7 +2376,7 @@ ul.exemenu li {
     border-bottom: 1px solid #15191d;
 }
 
-#contact h3 {
+#contact h2 {
     font: 18px/36px "raleway-heavy", sans-serif;
     color: #e20303;
     padding: 0;
