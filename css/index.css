@@ -1008,6 +1008,7 @@ ul#nav li.current a:after {
     background-size: cover;
     height: 550px;
     width: 100%;
+    bottom: 20px;
     text-align: left;
     position: relative;
     border-bottom: 1px solid #15191d;
@@ -2101,6 +2102,7 @@ ul.exemenu li {
     opacity: 0;
 }
 
+/*editing this file to force an reupdate the css*/
 
 /* Call To Action
 ------------------------------------------------------------------ */
@@ -2802,7 +2804,9 @@ footer .social-links li:first-child {
     border: 0 none;
     display: block;
     height: 54px;
+    bottom: 20px;
     width: 200px;
+    position: relative;
     margin-left: -100px;
     background: #e20303;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
